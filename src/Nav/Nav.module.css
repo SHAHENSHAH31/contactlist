@@ -1,0 +1,26 @@
+nav{
+    background-color: rgba(25, 175, 12, 0.747);
+    /* margin-top: -3vh; */
+    height: 7vh;
+    align-items: center;
+    padding-left: 10px;
+    display: flex;
+    justify-content: left;
+}
+/* Styling for the heading */
+h2{
+    color: white;
+}
+/* few of the styling of the h2 only,  */
+.heading{
+    font-weight: 500;
+}
+.heading:hover{
+    color: rgba(69, 69, 246, 0.712);
+    /* background-color: rgb(90, 86, 86); */
+    /* border: 1px solid white; */
+    /* box-shadow: 0px 1px 2px 5px whitesmoke; */
+}
+.link{
+    text-decoration: none;
+}

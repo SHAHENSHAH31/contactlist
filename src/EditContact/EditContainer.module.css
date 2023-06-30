@@ -1,0 +1,57 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.582);
+    margin-top: 10vh;
+  }
+  
+  .container h1 {
+    margin-bottom: 20px;
+    color: #0cd316;
+  }
+  
+  .container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ebebeb;
+    border: none;
+  }
+  .container input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .updateButton {
+    background-color: #0cd316;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  
+  .cancle {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+  
+  .cancle:hover,
+  .updateButton:hover {
+    opacity: 0.8;
+  }
+  
